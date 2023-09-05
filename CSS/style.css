@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    left: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.form h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.btn button {
+    cursor: pointer;
+    padding: 10px 45px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgba(22, 21, 21, 0.145);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn #btn2 {
+    background: #005C97;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.login {
+
+    padding: 20px;
+
+}
+
+.login input {
+    line-height: 40px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+.signup {
+    padding: 20px;
+}
+
+.signup button {
+    cursor: pointer;
+    width: 90%;
+    line-height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background: #005C97;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.signup p {
+    margin-top: 20px;
+    font-size: 17px;
+    color: black;
+
+}
+
+.signup span {
+    color: blue;
+    cursor: pointer;
+
+}
